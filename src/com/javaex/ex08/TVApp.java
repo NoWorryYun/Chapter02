@@ -1,4 +1,4 @@
-package com.javex.ex08;
+package com.javaex.ex08;
 
 public class TVApp {
 

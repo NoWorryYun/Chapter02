@@ -1,4 +1,4 @@
-package com.javex.ex07;
+package com.javaex.ex07;
 
 public class MathApp {
 
