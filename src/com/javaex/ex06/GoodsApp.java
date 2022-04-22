@@ -14,6 +14,7 @@ public class GoodsApp {
 		camera.setPrice(400000);
 		
 		
+		
 		/*
 		Goods computer = new Goods();
 		computer.setName("LG그램");
