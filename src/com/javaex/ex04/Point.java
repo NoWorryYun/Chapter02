@@ -11,11 +11,11 @@ public class Point {
 //getter/setter
 	
 	//setter
-	public void setX(int num) {
-		x = num;
+	public void setX(int x) {
+		this.x = x;
 	}
-	public void setY(int num2) {
-		y = num2;
+	public void setY(int y) {
+		this.y  = y;
 	}
 	
 	//getter

@@ -22,6 +22,8 @@ public class GoodsApp {
 //		System.out.println("상품이름: \"" + cup.getName() + "\", 가격 :" + cup.getPrice());
 		
 		camera.showInfo();
+		computer.showInfo();
+		cup.showInfo();
 	}
 
 }
