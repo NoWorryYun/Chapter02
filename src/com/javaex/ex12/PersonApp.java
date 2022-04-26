@@ -13,7 +13,6 @@ public class PersonApp {
 		Student s01 = new Student("서울고등학교");
 		System.out.println(s01.toString());
 		
-		
 		Student s02 = new Student();
 		s02.setAge(29);
 		s02.setName("윤성한");
@@ -27,7 +26,7 @@ public class PersonApp {
 		
 		System.out.println(s03.getName());
 		System.out.println(s03.toString());
-		
+		s03.showInfo();
 //		Student s03 = new Student("서울고등학교");
 		
 		

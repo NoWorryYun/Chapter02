@@ -3,7 +3,7 @@ package com.javaex.ex12;
 public class Person {
 
 	//필드
-	private String name;
+	protected String name;
 	private int age;
 	
 	//생성자

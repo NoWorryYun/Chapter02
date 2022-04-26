@@ -33,7 +33,16 @@ public class Student extends Person {		//Person으로 Student가 포함(?)됨. �
 	//일반
 	@Override
 	public String toString() {
-		return "Student [schoolname=" + schoolname + ", getName()=" + super.getName() + ", getAge()=" + this.getAge() + "]";
+		return "Student [schoolname=" + schoolname + ", getName()=" + name + ", getAge()=" + this.getAge() + "]";
 	}
-
+	
+	public void showInfo() {
+		//부모 showInfo()그대로 사용
+		//부모 toString사용
+		System.out.println(super.toString());
+		//내 toString 사용
+		System.out.println(this.toString());
+		
+		System.out.print("이름 : " + name + ", 나이 : " + getAge() + ", 학교 :" + schoolname);
+	}
 }
